@@ -63,22 +63,22 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Viewes\ListaProduto.xaml.cs">
+	  <Compile Update="Viewrs\ListaProduto.xaml.cs">
 	    <DependentUpon>ListaProduto.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Viewes\NovoProduto.xaml.cs">
+	  <Compile Update="Viewrs\NovoProduto.xaml.cs">
 	    <DependentUpon>NovoProduto.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Viewes\EditarProduto.xaml">
+	  <MauiXaml Update="Viewrs\EditarProduto.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Viewes\ListaProduto.xaml">
+	  <MauiXaml Update="Viewrs\ListaProduto.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Viewes\NovoProduto.xaml">
+	  <MauiXaml Update="Viewrs\NovoProduto.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
